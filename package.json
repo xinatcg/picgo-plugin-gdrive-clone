@@ -1,5 +1,5 @@
 {
-  "name": "picgo-plugin-gdrive",
+  "name": "picgo-plugin-gdrive-clone",
   "version": "1.0.0",
   "description": "Upload to Google Drive and get shared link",
   "main": "dist/index.js",

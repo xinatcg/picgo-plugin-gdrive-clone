@@ -284,7 +284,7 @@ export = (ctx: IPicGo) => {
   const commands = (ctx: IPicGo): any => [
     {
       label: ctx.i18n.translate<IGDriveLocalesKey>('PIC_GDRIVE_COMMAND_UPLOAD'),
-      key: 'Ctrl+Alt+0',
+      key: 'Ctrl+Alt+1',
       name: 'uploadToGDrive',
       async handle (ctx: IPicGo, guiApi: any) {
         ctx.log.info('>> GDrive >> command trigger')
